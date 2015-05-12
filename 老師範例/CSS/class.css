@@ -1,0 +1,8 @@
+.divClass{
+	font:bold 75px Comic Sans MS;
+	color:steelblue;
+	position:absolute;
+	top:200px;
+	left:250px;
+	z-index:10;
+}

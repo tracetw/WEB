@@ -1,0 +1,21 @@
+p[name = "silvia"]{
+	color:green;
+}
+
+p:hover{
+	color:red;
+}
+
+input[type="button"],input[type="reset"],input[type="submit"],button{
+	font:bold 24px 標楷體;
+	width:120px;
+	color:blue;
+}
+
+a[href $= ".pdf"]{
+	color:#999999;
+}
+
+a[href *= "google.com"]{
+	color:orange;
+}

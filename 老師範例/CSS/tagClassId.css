@@ -1,0 +1,14 @@
+div{
+	font:bold 75px Comic Sans MS;	
+	position:absolute;
+	top:200px;
+	left:250px;
+	
+	color:red;
+}
+.divClass{
+	color:blue;
+}
+#divId{
+	color:green;
+}

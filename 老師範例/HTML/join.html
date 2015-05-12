@@ -2,11 +2,88 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="cssName.css">
-		<script src="jsName.js"></script>
+		<link rel="stylesheet" href="join.css">
+		<script src=""></script>
 		<title>Join</title>
 	</head>
 	<body>
-		
+		<h2>加入會員</h2>
+		<form action="#" method="get" enctype="text/plain">
+			姓名：<input type="text" name="name"><br>			
+			密碼：<input type="password" name="pw"><br>	
+		<table>	
+		  <tr>
+		    <td>
+			  <fieldset>	
+				<legend>性別：</legend>
+					<input type="radio" name="gender" value="M">男
+					<input type="radio" name="gender" value="F" checked>女
+					<input type="radio" name="gender" value="N">不告訴你<br>
+			  </fieldset>
+			</td>
+		  </tr>
+		  <tr>
+		    <td>
+			  <fieldset>
+				<legend>興趣：</legend>
+					<input type="checkbox" name="read" value="ok">閱讀
+					<input type="checkbox" name="game" value="ok" disabled>電動
+					<input type="checkbox" name="trip" value="ok">旅遊
+					<input type="checkbox" name="dive" value="ok">潛水
+					<input type="checkbox" name="shop" value="ok">購物<br>
+			  </fieldset>
+			</td>
+		  </tr>
+		</table>  
+			血型：<select>
+					<option disabled></option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="O" selected>O</option>
+					<option value="AB">AB</option>
+				  </select><br>
+			留言：<textarea rows="5" name="talk"></textarea><br> 
+			<input type="button" value="我是按鈕">
+			<input type="reset" value="重新填寫">
+			<input type="submit" value="傳送出去">
+			<button><img src="../images/Ball.gif"></button>
+			
+			<hr>
+			<hr>
+			
+			<div>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name">
+			</div>
+			<div>
+				<label for="password">Password:</label>
+				<input type="password" name="pw" id="password">
+			</div>
+			
+			<div>
+				<label for="">Search:</label>
+				<input type="search" name="search" placeholder="Search...">
+			</div>
+			<div>
+				<label for="">Email:</label>
+				<input type="email" name="email" placeholder="example@xxx.com">
+			</div>
+			<div>
+				<label for="">Number:</label>
+				<input type="number" name="number" min="1">
+			</div>
+			<div>
+				<label for="">Date:</label>
+				<input type="date" name="date">
+			</div>
+			
+			
+		</form>
 	</body>
 </html>
+
+
+
+
+
+
