@@ -1,0 +1,16 @@
+@-webkit-keyframes slide{
+	from{
+		margin-left:0%;
+	}
+	to{
+		margin-left:75%;
+		/* border:5px dashed green; */
+	}	
+}
+
+img{
+	-webkit-animation-name:slide;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:3;
+	-webkit-animation-direction:alternate;
+}

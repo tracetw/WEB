@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="8_event.js"></script>
+		<title>Events</title>
+	</head>
+	<body>
+	  <form action="#" method="post" id="theForm">
+		<fieldset>
+			<legend>Register your event</legend>
+			<p>Select the events you want to listen for:</p>
+			<hr>
+			<div id="events">
+				<div>
+					<label for="mousedown">Mousedown</label>
+					<input type="checkbox" id="mousedown" name="mousedown" value="mousedown">
+				</div>
+				<div>
+					<label for="click">Click</label>
+					<input type="checkbox" id="click" name="click" value="click">
+				</div>	
+				<div>
+					<label for="keypress">Keypress</label>
+					<input type="checkbox" id="keypress" name="keypress" value="keypress">
+				</div>
+				<div>
+					<label for="contextmenu">Contextmenu</label>
+					<input type="checkbox" id="contextmenu" name="contextmenu" value="contextmenu">
+				</div>
+				<div>
+					<label for="mouseover">Mouseover</label>
+					<input type="checkbox" id="mouseover" name="mouseover" value="mouseover">
+				</div>	
+				<div>
+					<input type="submit" id="submit" value="Submit">
+				</div>
+				<div>
+					<label for="output">Output</label>
+					<textarea id="output" name="output" rows="10" disabled></textarea>
+				</div>
+			</div>
+			
+		</fieldset>
+	  </form>
+	</body>
+</html>

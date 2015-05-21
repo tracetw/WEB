@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Login</title>		
+	</head>
+	<body>
+		<form action="" method="get" id="theForm">
+			<fieldset>
+				<legend>Calculator</legend>
+				<div>
+					<label for="quantity">Quantity:</label><br>
+					<input type="number" name="quantity" id="quantity" onchange="goCnt()" autofocus required min="1">
+				</div>
+				<div>
+					<label for="price">Price for Unit:</label><br>
+					<input type="number" name="price" id="price" onchange="goCnt()" required min="0">
+				</div>
+				<div>
+					<label for="discount">Discount:</label><br>
+					<input type="number" name="discount" id="discount" onchange="goCnt()" required min="0" max="100">% OFF
+				</div>
+				<div>
+					<label for="total">Total:</label><br>
+					<input type="number" name="total" id="total" disabled>
+				</div>
+				<div>
+					<input type="submit" value="Calculate" id="submit">
+				</div>
+			</fieldset>
+		</form>
+		<script src="new.js"></script>
+	</body>
+</html>

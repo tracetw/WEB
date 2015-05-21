@@ -1,0 +1,14 @@
+@-webkit-keyframes slide{
+	0%{margin-left:0px;}
+	20%{margin-left:300px;}
+	50%{margin-left:500px;}
+	70%{margin-left:800px;}
+	100%{margin-left:1000px;}
+}
+
+img{
+	-webkit-animation-name:slide;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:3;
+	-webkit-animation-direction:alternate;
+}

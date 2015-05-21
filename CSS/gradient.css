@@ -1,0 +1,10 @@
+#box{
+	width: 200px;
+	border:solid  steelblue 1px;
+	margin: 200px auto;
+	text-align: center;
+	border-radius: 10px 10px;
+	background:-webkit-radial-gradient(center,steelblue 0% ,green 30% ,red 100%);
+
+	/* background:-webkit-linear-gradient(left top,steelblue 0% ,blue 50% ,red 70%); */
+}

@@ -1,0 +1,21 @@
+html{
+	background-color: #eee;
+	padding: 15px;
+	font: bold 90% Tahoma;
+}
+form{
+	background-color: #fff;
+	padding: 12px;
+	border:2px solid #ddd;
+	width: 200px;
+}
+label{
+	width: 150px;
+}
+#submit{
+	width: 45px;
+	height: 20px;
+	cursor: pointer;
+	margin: 10px auto;
+	border:0;
+}

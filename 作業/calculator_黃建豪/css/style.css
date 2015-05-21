@@ -1,0 +1,25 @@
+html{
+	background:lightgray;
+	padding:15px;
+	font:normal 20px Tahoma,Verdana,Arial;
+}
+form{
+	background:white;
+	padding:12px;
+	border:1px solid #888888;
+	width:220px;
+}
+label{
+	width:150px;
+}
+#submit{
+	width:70px;
+	height:25px;
+	cursor:pointer;
+	margin:10px auto;
+	border:0px;
+}
+
+input{
+	width: 110px;
+}

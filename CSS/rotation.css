@@ -1,0 +1,25 @@
+#box{
+	width: 250px;
+	border:solid  steelblue 1px;
+	margin: 200px auto;
+	text-align: center;
+	border-radius: 10px 40px;
+	-webkit-transition:width 2s cubic-bezier(0,0,1,1), -webkit-transform 2s, height 3s,background-color 3s, opacity 2s, color 2s;
+
+	/* -webkit-transform:translate(20px,20px) rotate(30deg) scale(1.1,1.5) skew(20deg,10deg);
+	-webkit-transform:skew(30deg,10deg);
+	-webkit-transform:scale(1.1,1.5);
+	-webkit-transform:rotate(30deg);
+	-webkit-transform: translate(20px,20px); */
+}
+#box:hover{
+		-webkit-transform:rotate(360deg);
+		width: 450px;
+		height: 150px;
+		background-color: steelblue;
+		opacity: 0.9;
+		color: #fff;
+}
+#text{
+	font: bold 36px Tahoma;
+}

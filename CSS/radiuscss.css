@@ -1,0 +1,12 @@
+#box{
+	width: 250px;
+	border:solid  steelblue 1px;
+	margin: 200px auto;
+	text-align: center;
+	border-radius: 10px 40px;
+	box-shadow: rgba(255,0,0,0.7) 15px 15px 20px, rgba(0,250,0,0.7) 20px 20px 25px 5px;
+}
+#text{
+	font: bold 36px Tahoma;
+	text-shadow:rgba(0,0,250,0.7) 3px 3px 10px;
+}

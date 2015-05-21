@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTML>
+ 	<HEAD>
+     	<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/style.css">
+		<script src="calculator.js"></script>
+		<title>Calculator</title>
+	</HEAD>
+	<BODY>
+		<form action="#" method="post" id="theForm">
+			<fieldset>
+				<legend>Calculator</legend>
+				<p>Use this from to calculator the order total.</p>
+				
+				<div>
+					<label for="quantity">Quantity</label>
+					<input type="number" id="quantity" min="1" required>
+				</div>
+				<div>
+					<label for="price">Price Per Unit</label>
+					<input type="text" id="price" required>
+				</div>
+				<div>
+					<label for="tax">Tax Rate(%)</label>
+					<input type="text" id="tax" >
+				</div>
+				<div>
+					<label for="discount">Discount</label>
+					<input type="text" id="discount">
+				</div>
+				<div>
+					<label for="total">Total</label>
+					<input type="text" id="total" disabled>
+				</div>
+				<div>
+					<input type="submit" id="" value="Calculate">
+				</div>
+			</fieldset>
+		</form>
+	</BODY>
+</HTML>
+

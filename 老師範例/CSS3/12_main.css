@@ -1,0 +1,27 @@
+#box{
+	border:1px solid steelblue;
+	margin:150px auto;
+	text-align:center;
+	border-radius:10px;
+	font:bold 12px Tahoma;
+	color:#fff;
+	
+	width:80px;
+	height:50px;
+	background:steelblue;
+	opacity:0.1;
+	
+	-webkit-transition:width 8s,font 4s, -webkit-transform 2s,height 5s,background 3s,opacity 3s,color 3s;
+}
+#box:hover{
+	-webkit-transform:rotate(360deg);
+	width:450px;
+	height:100px;
+	/* background:steelblue; */
+	opacity:1;
+	/* color:#fff; */
+	font:bold 36px Tahoma;
+}
+#text{
+	
+}

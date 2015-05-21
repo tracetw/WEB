@@ -1,0 +1,19 @@
+@-webkit-keyframes slide{
+	from{
+		margin-left:0%;
+	}
+	to{
+		margin-left:75%;
+		/* border:5px dashed green; */
+	}	
+}
+
+img{
+	-webkit-animation-name:slide;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+}
+button{
+	font-size:xx-large;
+}

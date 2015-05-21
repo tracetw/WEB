@@ -1,0 +1,22 @@
+@-webkit-keyframes slide{
+/*	0%[margin-left: 0px];
+	20%[margin-left: 300px];
+	50%[margin-left: 500px];
+	70%[margin-left: 800px];
+	100%[margin-left: 1000px];*/
+	from{
+		margin-left: 0%
+	}
+	to{
+		margin-left: 75%
+	}
+}
+img{
+	-webkit-animation-name:slide;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+}
+button{
+	font-size: xx-large;
+}
